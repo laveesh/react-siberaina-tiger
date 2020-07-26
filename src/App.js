@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
-import { Home, About } from './Views';
+import { Home, About, Product } from './Views';
 
 function App() {
   return (
@@ -17,6 +17,9 @@ function App() {
             </Route>
             <Route path='/about'>
               <About />
+            </Route>
+            <Route path='/products/:id'>
+              <Product />
             </Route>
           </Switch>
         </div>
