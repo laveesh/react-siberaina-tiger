@@ -1,7 +1,6 @@
 import React from 'react';
-import Loader from '../Components/Loader';
-import ProductCard from '../Components/ProductCard';
-import { useAxiosGet } from '../Hooks/HttpRequest';
+import { Loader, ProductCard } from '../Components';
+import { useAxiosGet } from '../Hooks';
 
 function Home() {
   const url =

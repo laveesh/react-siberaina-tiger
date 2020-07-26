@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import Loader from '../Components/Loader';
-import { useAxiosGet } from '../Hooks/HttpRequest';
+import { Loader } from '../Components';
+import { useAxiosGet } from '../Hooks';
 
 function Product() {
   const { id } = useParams();
