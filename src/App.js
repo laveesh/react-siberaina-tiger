@@ -6,7 +6,7 @@ import { Home, About, Product } from './Views';
 
 function App() {
   return (
-    <div className='App'>
+    <div className='relative pb-10 min-h-screen'>
       <Router>
         <Header />
 
